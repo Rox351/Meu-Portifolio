@@ -3,20 +3,17 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'DM Sans';
+  list-style: none;
+  text-decoration: none;
 }
 
 body{
-  background-color: grey;
+  background-color:  #09090B;
 }
 
-h1{
+h1,h2,li,p{
   color: white;
 }
 
-li{
-  color: white;
-}
 
-p{
-  color: white;
-}
