@@ -120,6 +120,8 @@
   margin-top: 30px;
 }
 
+
+
 #emoticons{
   display: flex;
   justify-content: center;
@@ -131,11 +133,133 @@
   background: #212121;
   border: 12px solid #212121;
   border-radius: 50%;
-  
-}
+  border-radius: 50%;
+  display: block; /* Define que a imagem será exibida como um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+ }
 
-#smile{
+ .e-mail img{
+  background: #212121;
+  border: 12px solid #212121;
+  border-radius: 50%;
+  border-radius: 50%;
+  display: flex-start; /* Define que a imagem será exibida como um bloco */
+  margin: 0 25px auto; /* Centraliza a imagem horizontalmente */
+ }
+
+ .telefone img{
+  background: #212121;
+  border: 12px solid #212121;
+  border-radius: 50%;
+  border-radius: 50%;
+  display: block; /* Define que a imagem será exibida como um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+ }
+
+#smile,#e-mail,#telefone{
   Width: 26.67px;
   Height: 26.67px;
   
 }
+
+#projetos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 160px;
+  margin-top: 127px;
+
+}
+
+.projeto-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+  
+}
+
+
+#projetos div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+}
+
+
+.site_faculdade img{
+  height: 240px;
+  width: 250px;
+  border: 20px solid #333333;
+}
+
+.pagina_autenticacao img{
+  height: 240px;
+  width: 250px;
+  border: 20px solid #333333;
+}
+
+.calculadora{
+  height: 240px;
+  width: 200px;
+  border: 20px solid #333333;
+}
+
+.chat_bot{
+  height: 240px;
+  width: 250px;
+  border: 20px solid #333333;
+}
+
+.barbearia_alura{
+  height: 240px;
+  width: 350px;
+  border: 20px solid #333333;
+}
+
+#servicos h1{
+display: flex;
+justify-content: center;
+margin-top: 127px;
+}
+
+
+
+#minhas-skills h1{
+  display: flex;
+justify-content: center;
+margin-top: 397px;
+text-align: center;
+gap: 10px;
+}
+
+#minhas-skills .imagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+  }
+
+  #html, #css, #js{
+    background: #333333;
+    border: 20px solid #333333;
+    box-sizing: border-box;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 220px;
+    background: #212121;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+  }
+
+  svg{
+    margin: 0 10px;
+  }
