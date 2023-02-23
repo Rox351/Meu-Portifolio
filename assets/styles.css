@@ -139,7 +139,7 @@
   margin: 0 auto; /* Centraliza a imagem horizontalmente */
  }
 
- .nome h1{
+ .nome h1{ /*Organizei os nome abaixo dos emoticons*/
   display: flex;
   justify-content: center;
   font-style: normal;
@@ -222,7 +222,7 @@
   Height: 26.67px;
 }
 
-#projetos {
+#projetos { /*Utilizei essa div para organizar as boxes com os projetos, deixando eles em linha e quebrando qdo chegar ao fim da tela*/
   display: flex;
   justify-content: center;
   text-align: center;
@@ -246,15 +246,10 @@
   text-align: center;
 }
 
-#projetos div{
-  display: flex;
-  
-}
-
 .site_faculdade{
   display: flex;
   flex-direction: column;
-  background-color: #212121;
+  background-color: #212121; /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
 }
@@ -289,7 +284,7 @@
 .pagina_autenticacao{
   display: flex;
   flex-direction: column;
-  background-color: #212121;
+  background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
 }
@@ -324,7 +319,7 @@
 .calculadora{
   display: flex;
   flex-direction: column;
-  background-color: #212121;
+  background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
 }
@@ -359,7 +354,7 @@
 .chat_bot{
   display: flex;
   flex-direction: column;
-  background-color: #212121;
+  background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
 }
@@ -394,7 +389,7 @@
 .barbearia_alura{
   display: flex;
   flex-direction: column;
-  background-color: #212121;
+  background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
 }
@@ -448,7 +443,7 @@ line-height: 42px;
   height: 240px;
   margin-top: 30px;
 
-  background: #212121;
+  background: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
 }
 
 
@@ -480,7 +475,7 @@ line-height: 42px;
   height: 240px;
   margin-top: 30px;
 
-  background: #212121;
+  background: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
 }
 
 #responsivo{
@@ -532,7 +527,7 @@ line-height: 42px;
     width: 70.54px;
     height: 80px;
     padding: 39px;
-    background-color: #212121;
+    background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   }
 
 
