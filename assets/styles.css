@@ -28,6 +28,24 @@
   line-height: 34px;
 }
 
+nav a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav a:visited{
+  color:inherit;
+}
+
+nav a:hover {
+  color: ;
+  padding: 5px;
+  font-size: 1.2em;
+  color: black;
+  background-color: #00DF5E;
+  border-radius: 5px;
+}
+
 #container{
   position: absolute;
   flex-direction: column;
@@ -58,7 +76,15 @@
   gap: 33px;
   margin-left: 150px;
   margin-top: 35px;
+  
 
+}
+
+.botton1:hover{
+  font-size: 1.1em;
+  opacity: 0.3;
+  width: 150px;
+  height: 52px;
 }
 
 .botton1 {
@@ -68,11 +94,20 @@
   background: #00DF5E;
   width: 143px;
   height: 42px;
+  border-radius: 1.1em;
  }
 
  .botton1 a{
   color: #171717;
 
+ }
+
+
+ .botton2:hover{
+  font-size: 1.1em;
+  opacity: 0.3;
+  width: 170px;
+  height: 52px;
  }
 
  .botton2 {
@@ -86,6 +121,7 @@
   font-size: 14px;
   line-height: 18px;
   border: 1px #333333 solid;
+  border-radius: 1.1em;
  }
 
  .botton2 a{
@@ -252,13 +288,19 @@
   background-color: #212121; /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
+  border-radius: 1em ;
 }
+
 
 .site_faculdade img{
   width: 300px;
   height: 130px;
   margin-top: 20px;
   margin-left: 25px;
+}
+
+.site_faculdade img:hover{
+  opacity: 0.3;
 }
 
 .site_faculdade h1{
@@ -287,6 +329,7 @@
   background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
+  border-radius: 1em ;
 }
 
 .pagina_autenticacao img{
@@ -294,6 +337,10 @@
   height: 130px;
   margin-top: 20px;
   margin-left: 25px;
+}
+
+.pagina_autenticacao img:hover{
+ opacity: 0.3;
 }
 
 .pagina_autenticacao h1{
@@ -322,6 +369,7 @@
   background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
+  border-radius: 1em ;
 }
 
 .calculadora img{
@@ -329,6 +377,10 @@
   height: 130px;
   margin-top: 20px;
   margin-left: 25px;
+}
+
+.calculadora img:hover{
+  opacity: 0.3;
 }
 
 .calculadora h1{
@@ -357,6 +409,7 @@
   background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
+  border-radius: 1em ;
 }
 
 .chat_bot img{
@@ -364,6 +417,9 @@
   height: 130px;
   margin-top: 20px;
   margin-left: 25px;
+}
+.chat_bot img:hover{
+  opacity: 0.3;
 }
 
 .chat_bot h1{
@@ -392,6 +448,7 @@
   background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   width: 350px;
   height: 240px;
+  border-radius: 1em ;
 }
 
 .barbearia_alura img{
@@ -401,6 +458,9 @@
   margin-left: 25px;
 }
 
+.barbearia_alura img:hover{
+  opacity: 0.3;
+}
 .barbearia_alura h1{
   font-style: normal;
   font-weight: 500;
@@ -436,13 +496,14 @@ line-height: 42px;
   display: flex;
   justify-content: center;
   gap: 45px;
+  
 }
 
 .criacao{
   width: 350px;
   height: 240px;
   margin-top: 30px;
-
+  border-radius: 1em ;
   background: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
 }
 
@@ -474,7 +535,7 @@ line-height: 42px;
   width: 350px;
   height: 240px;
   margin-top: 30px;
-
+  border-radius: 1em ;
   background: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
 }
 
@@ -514,6 +575,7 @@ line-height: 42px;
 
 }
 
+
   .imagens {
   display: flex;
   justify-content: center;
@@ -527,6 +589,7 @@ line-height: 42px;
     width: 70.54px;
     height: 80px;
     padding: 39px;
+    border-radius: 1em ;
     background-color: #212121;  /* Coloquei um background de fundo com as medidas para fazer a caixa*/
   }
 
